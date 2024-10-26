@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../Gl/projects/ApiService3" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../EDR/1.CODE/old_p3" vcs="Git" />
-  </component>
-</project>
