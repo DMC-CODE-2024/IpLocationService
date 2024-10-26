@@ -18,8 +18,7 @@ import org.springframework.web.client.RestTemplate;
 public class AlertService implements IAlert{
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-
-    @Value("${alert.url}")
+    @Value("${eirs.alert.url}")
     String alertUrl;
 
     private RestTemplate restTemplate = null;

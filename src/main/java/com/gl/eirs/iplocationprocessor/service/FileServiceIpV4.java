@@ -16,7 +16,6 @@ import java.util.Arrays;
 @Service
 public class FileServiceIpV4 implements IFileService {
 
-
     @Value("${file.separator.parameter}")
     private String fileSeparator;
 
@@ -26,7 +25,6 @@ public class FileServiceIpV4 implements IFileService {
     @Autowired
     Ipv4Repository ipv4Repository;
 
-
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     public boolean processAddFile(FileDto fileDto, String errorFileName) {
@@ -34,7 +32,7 @@ public class FileServiceIpV4 implements IFileService {
         int failureCount = 0;
         int succesCount = 0;
         int emptyRecords = 0;
-        logger.debug("Full File : {} ", fileDto.getFilePath() + "  /  " + fileDto.getFileName());
+        logger.info("Full Path with File Name : {} ", fileDto.getFilePath() + "  /  " + fileDto.getFileName());
         try (BufferedReader reader = new BufferedReader(new FileReader(fileDto.getFilePath() + "/" + fileDto.getFileName()))) {
             File outFile = new File(errorFilePath.replace("<ipType>", "ipv4") + "/" + errorFileName);
             PrintWriter writer = new PrintWriter(outFile);
@@ -75,7 +73,7 @@ public class FileServiceIpV4 implements IFileService {
             }
 
         } catch (FileNotFoundException ex) {
-            logger.error("File processing for file {}, failed due to {}", fileDto.getFileName(), ex.getMessage());
+            logger.error("File processing for file {} . failed due to {}", fileDto.getFileName(), ex.getMessage());
             fileDto.setFailedRecords(failureCount);
             fileDto.setSuccessRecords(succesCount);
             fileDto.setTotalRecords(fileDto.getTotalRecords() - emptyRecords);
@@ -146,7 +144,7 @@ public class FileServiceIpV4 implements IFileService {
             }
 
         } catch (FileNotFoundException ex) {
-            logger.error("File processing for file {}, failed due to {}", fileDto.getFileName(), ex.getMessage());
+            logger.error("File processing for file {} . Failed due to {}", fileDto.getFileName(), ex.getMessage());
             fileDto.setFailedRecords(failureCount);
             fileDto.setSuccessRecords(succesCount);
             fileDto.setTotalRecords(fileDto.getTotalRecords() - emptyRecords);

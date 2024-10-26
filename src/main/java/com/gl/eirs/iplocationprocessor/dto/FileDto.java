@@ -23,23 +23,6 @@ public class FileDto {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-
-    public FileDto(String fileName, String filePath, long totalRecords) {
-        this.fileName = fileName;
-        this.filePath = filePath;
-        this.totalRecords = totalRecords;
-        this.successRecords = successRecords;
-        this.failedRecords = failedRecords;
-    }
-
-    public FileDto(String fileName, String filePath, long totalRecords, long successRecords, long failedRecords) {
-        this.fileName = fileName;
-        this.filePath = filePath;
-        this.totalRecords = totalRecords;
-        this.successRecords = successRecords;
-        this.failedRecords = failedRecords;
-    }
-
     public FileDto(String fileName, String filePath) {
         this.fileName = fileName;
         this.filePath = filePath;
@@ -48,13 +31,12 @@ public class FileDto {
         this.failedRecords = 0;
     }
 
-
     public long getFileRecordCount(String file) {
         try {
             File file1 = new File(file);
             logger.info("Getting the file size for file {}", file1.toURI());
             Path pathFile = Paths.get(file1.toURI());
-            return (long) Files.lines(pathFile).count();
+            return Files.lines(pathFile).count();
         } catch (IOException e) {
             e.printStackTrace();
         }

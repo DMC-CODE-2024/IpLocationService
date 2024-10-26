@@ -57,8 +57,8 @@ public class MainService {
         moduleAuditId = entity.getId();
         if (ipType.equalsIgnoreCase("ipv4")) {
             try {
-                boolean delFileResponse = fileServiceIpV4.processDelFile(delFileDto, delErrorFilename);
-                boolean addFileResponse = fileServiceIpV4.processAddFile(addFileDto, addErrorFileName);
+                fileServiceIpV4.processDelFile(delFileDto, delErrorFilename);
+                fileServiceIpV4.processAddFile(addFileDto, addErrorFileName);
             } catch (Exception ex) {
                 logger.error("The file processing failed for ipv4 diff file");
                 logger.info("Summary for add file {} is {}", addFileDto.getFileName(), addFileDto);

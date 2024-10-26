@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93622f32-987a-4759-bfc8-e49b2eea5418" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/AlertAudit/ModuleAuditTrail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/P5Process/ProcessMsisdnUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/AlertAudit/AlertService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/AlertAudit/AlertService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/P5Process/CustomImeiPairProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/P5Process/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/P5Process/QueryExecuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/src/main/java/com/gl/P5Process/QueryExecuter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ActionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ActionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ActionParametersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ActionParametersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/AlertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/AlertController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/CallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/CallbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/CheckDeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/CheckDeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/CheckImeiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/CheckImeiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/FileUploadDownloadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/FileUploadDownloadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ForeignerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ForeignerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/GsmaValueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/GsmaValueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ImmegreationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ImmegreationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/MediationSourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/MediationSourceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/MobileOperatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/MobileOperatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/RuleFeatureActionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/RuleFeatureActionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/RulesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/RulesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ScheduleReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/ScheduleReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/SmsScriptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/SmsScriptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/StakeHolderPolicyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/StakeHolderPolicyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/UploadedFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/controller/UploadedFileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/model/app/AppDeviceDetailsDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/model/app/AppDeviceDetailsDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/repository/app/AppDeviceDetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gl/projects/ApiService3/src/main/java/com/gl/ceir/config/repository/app/AppDeviceDetailsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EDR/1.CODE/old_p3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EDR/1.CODE/old_p3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EDR/1.CODE/old_p3/src/main/java/com/glocks/configuration/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EDR/1.CODE/old_p3/src/main/java/com/glocks/configuration/PropertiesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EDR/1.CODE/old_p3/src/main/java/com/glocks/util/FileList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EDR/1.CODE/old_p3/src/main/java/com/glocks/util/FileList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/alert/AlertService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/alert/AlertService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/dto/FileDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/dto/FileDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/entity/app/Ipv4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/entity/app/Ipv4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/service/FileServiceIpV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/service/FileServiceIpV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/service/FileServiceIpV6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/service/FileServiceIpV6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gl/eirs/iplocationprocessor/service/MainService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gl-ceir&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DMC-CODE-2024/IpLocationService.git&quot;,
+    &quot;accountId&quot;: &quot;84098d8e-b9da-4fdf-82e5-35e06b09d4ac&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2nVoSSuRXmntojULfxbQf5MWwmb" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.RuleEngine [clean].executor": "Run",
+    "Maven.RuleEngine [install].executor": "Run",
+    "Maven.edr_msisdn [clean].executor": "Run",
+    "Maven.iplocationprocessor [clean].executor": "Run",
+    "Maven.iplocationprocessor [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/maverick/WorkSpace/Gl/Release/TypeApproval",
+    "settings.editor.selected.configurable": "project.scopes"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="IpLocation-Jar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="IpLocation-Jar" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="IpLocation-Jar" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="IpLocation-Jar" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ccruntests" factoryName="Run Study Tests">
+      <module name="IpLocation-Jar" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <option name="studyTest" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93622f32-987a-4759-bfc8-e49b2eea5418" name="Changes" comment="" />
+      <created>1729067603955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729067603955</updated>
+    </task>
+    <servers />
+  </component>
+</project>

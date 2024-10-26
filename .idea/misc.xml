@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../RuleEngine/1.Code/pom.xml" />
+        <option value="$PROJECT_DIR$/../EDR/1.CODE/old_p3/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Gl/projects/ApiService3/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Gl/Release/EdrUpdateMsisdnProcess/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Gl/Release/LocaLmanufactureProcess/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Gl/Release/TypeApproval/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK" />
+</project>

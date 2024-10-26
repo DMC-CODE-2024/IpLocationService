@@ -9,7 +9,6 @@ import lombok.Data;
 @Table(name="ip_location_country_ipv4")
 public class Ipv4 {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

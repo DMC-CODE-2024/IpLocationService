@@ -1,9 +1,7 @@
 package com.gl.eirs.iplocationprocessor.service;
 
 import com.gl.eirs.iplocationprocessor.dto.FileDto;
-import com.gl.eirs.iplocationprocessor.entity.app.Ipv4;
 import com.gl.eirs.iplocationprocessor.entity.app.Ipv6;
-import com.gl.eirs.iplocationprocessor.repository.app.Ipv4Repository;
 import com.gl.eirs.iplocationprocessor.repository.app.Ipv6Repository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,13 +13,13 @@ import java.io.*;
 import java.util.Arrays;
 
 @Service
-public class FileServiceIpV6 implements IFileService{
+public class FileServiceIpV6 implements IFileService {
 
     @Value("${file.separator.parameter}")
     private String fileSeparator;
 
     @Value("${error.file.path}")
-    String errorFilePath  ;
+    String errorFilePath;
 
     @Autowired
     Ipv6Repository ipv6Repository;
@@ -30,11 +28,11 @@ public class FileServiceIpV6 implements IFileService{
 
     public boolean processAddFile(FileDto fileDto, String errorFileName) {
         // read file and process the entries
-        int failureCount=0;
-        int succesCount=0;
-        int emptyRecords=0;
-        try(BufferedReader reader = new BufferedReader(new FileReader(fileDto.getFilePath() +"/" + fileDto.getFileName()))) {
-            File outFile = new File(errorFilePath.replace("<ipType>", "ipv6")   + "/" + errorFileName);
+        int failureCount = 0;
+        int succesCount = 0;
+        int emptyRecords = 0;
+        try (BufferedReader reader = new BufferedReader(new FileReader(fileDto.getFilePath() + "/" + fileDto.getFileName()))) {
+            File outFile = new File(errorFilePath.replace("<ipType>", "ipv6") + "/" + errorFileName);
             PrintWriter writer = new PrintWriter(outFile);
             try {
                 String record;
@@ -45,7 +43,7 @@ public class FileServiceIpV6 implements IFileService{
                     }
 
                     String[] ipRecord = record.split(fileSeparator, -1);
-                    if(ipRecord.length !=4 ) {
+                    if (ipRecord.length != 4) {
                         logger.error("The record length is less than 4 {}", Arrays.stream(ipRecord).toList());
                         writer.println(record);
                         continue;
@@ -99,11 +97,11 @@ public class FileServiceIpV6 implements IFileService{
     }
 
     public boolean processDelFile(FileDto fileDto, String errorFileName) {
-        int failureCount=0;
-        int succesCount=0;
+        int failureCount = 0;
+        int succesCount = 0;
         int emptyRecords = 0;
-        try(BufferedReader reader = new BufferedReader(new FileReader(fileDto.getFilePath() +"/" + fileDto.getFileName()))) {
-            File outFile = new File(errorFilePath.replace("<ipType>", "ipv6")  + "/" + errorFileName);
+        try (BufferedReader reader = new BufferedReader(new FileReader(fileDto.getFilePath() + "/" + fileDto.getFileName()))) {
+            File outFile = new File(errorFilePath.replace("<ipType>", "ipv6") + "/" + errorFileName);
             PrintWriter writer = new PrintWriter(outFile);
             try {
                 String record;
@@ -112,9 +110,8 @@ public class FileServiceIpV6 implements IFileService{
                         emptyRecords++;
                         continue;
                     }
-
                     String[] ipRecord = record.split(fileSeparator, -1);
-                    if(ipRecord.length !=4 ) {
+                    if (ipRecord.length != 4) {
                         logger.error("The record length is less than 4 {}", Arrays.stream(ipRecord).toList());
                         writer.println(record);
                         continue;
